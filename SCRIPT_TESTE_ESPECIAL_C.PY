@@ -77,13 +77,13 @@ result_area.tag_config('adicionado', foreground='green')
 result_area.tag_config('detalhes', foreground='blue')
 result_area.pack()
 
-# Aba de Resumo
-resumo_frame = ttk.Frame(notebook)
-notebook.add(resumo_frame, text="Resumo")
+# Aba de Resumo (desativado)
+# resumo_frame = ttk.Frame(notebook)
+# notebook.add(resumo_frame, text="Resumo")
 
-# Conteúdo da Aba Resumo
-resumo_label = tk.Label(resumo_frame, text="Esta é a aba de Resumo.\nAdicione aqui qualquer conteúdo que desejar.", padx=10, pady=10)
-resumo_label.pack()
+# Conteúdo da Aba Resumo (desativado)
+# resumo_label = tk.Label(resumo_frame, text="Esta é a aba de Resumo.\nAdicione aqui qualquer conteúdo que desejar.", padx=10, pady=10)
+# resumo_label.pack()
 
 # Inicia o loop da interface gráfica
 root.mainloop()
